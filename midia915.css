@@ -1,0 +1,100 @@
+@charset "UTF-8";
+
+@media (min-width: 766px) and (max-width: 915px) {
+   body {
+      width: 100%;
+      margin: 0px 0px 0px 0px;
+}
+
+header > h1{
+   width: 100%;
+}
+.col {
+   width: 100%;
+}
+
+.col > h1 {
+   width: 100%;
+   margin-left: 40px;
+}
+
+article#box {
+   width: 100%;
+   margin: 400px 0px 0px 0px;
+}
+
+#fieldset {
+   width: 100%;
+   margin-left: 15px;
+}
+
+legend {
+   width: 100%;
+}
+
+#tempolimitado  {
+   width: 100%;
+   margin: 500px 0px 0px -200px;
+}
+#meio {
+   width: 100%;
+   margin-left: 40px;
+}
+#acesso{
+   width: 100%;
+}
+#suporte {
+   width: 100%;
+}
+#conteudo {
+   width: 100%;
+}
+#esteebook {
+   width: 100%;
+}
+
+.carousel-inner {
+   width: 100%;
+   margin: 0px 350px 0px 0px;
+}
+
+.carousel-control-next-icon {
+    margin-bottom: -190px;
+    margin-left: -150px;
+ }
+
+ .carousel-control-prev-icon {
+    margin-bottom: -190px;
+ }
+
+
+.carousel-inner {
+   width: 100%;
+   margin: 0px 500px 0px -20px;
+}
+
+#salario {
+   width: 100%;
+ }
+
+#conhecimento > h1 {
+   width: 100%;
+   margin-left: 40px;
+}
+
+#quemsou > img {
+   margin-top: 50px;
+   margin-left: 50px;
+   position: relative;
+}
+
+#quemsou > p {
+   margin: 0px 0px 0px 300px;
+}
+
+footer {
+   width: 105%;
+   margin-top: 150px;
+}
+
+}
