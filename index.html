@@ -29,48 +29,44 @@ $result = mysqli_query($conexao, "INSERT INTO usuarios(nome, email, telefone) VA
     <!--Abaixo toda a parte responsiva do site, em diversas telas-->
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="formulario.css">
-    <link rel="stylesheet" href="midia553.css">
-    <link rel="stylesheet" href="midia681.css">
-    <link rel="stylesheet" href="midia765.css">
-    <link rel="stylesheet" href="midia915.css">
-    <link rel="stylesheet" href="midia1145.css">
-    <link rel="stylesheet" href="midia1332.css">
-    
 </head>
 <body>
     <header id="home" style="margin: 0px; padding: 0px;">
-        <p><b style="color: #fe7e00;">Jogador Profissional</b> 
-          <a href="#home">Início</a>
-          <a href="#esteebook">E-book</a>
-          <a href="#salarios">Salários</a>
-          <a href="#quemsou">Quem somos</a>
-          <a href="#conhecimento">O que vamos aprender?</a>
-          <a href="Sinuca.html">Jogo</a>
+        <p><b style="color: #fe7e00;">Jogador Profissional</b>
+
+          <div class="dropdown">
+            <button class="opcoes" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+              ☰  
+            </button>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#home">Início</a></li>
+              <li><a class="dropdown-item" href="#esteebook">E-book</a></li>
+              <li><a class="dropdown-item" href="#salarios">Salários</a></li>
+              <li><a class="dropdown-item" href="#quemsou">Quem somos</a></li>
+              <li><a class="dropdown-item" href="#conhecimento">O que vamos aprender?</a></li>
+              <li><a class="dropdown-item" href="Sinuca.html">Jogo</a></li>
+            </ul>
+          </div>
         </p>
     </header>
 
-<article class="cabecalho">
-
-        <div>    
-            <div  class="row align-items-start">
-              <div class="col">
-                <p >Mais de +1.000 membros</p>
-                <h1>A maneira <b>simples</b><br>de aprender <br>sinuca</h1>
-              </div>
-
-              <div class="col" style="padding-left: 400px;">
-                <article id="tempolimitado"style="background-color: white; color: black; border: 3px solid;
+    <div class="container text-center">
+      <div class="row align-items-start">
+        <div class="col">
+          <p >Mais de +1.000 membros</p>
+          <h1>A maneira <b>simples</b><br>de aprender <br>sinuca</h1>
+        </div>
+        <div class="col">
+          <article id="tempolimitado"style="background-color: white; color: black; border: 3px solid;
                 width: 340px; height: 360px; border-radius:10px; text-align: center;">
                 <p style="background-color: red;">Por tempo limitado</p>
                 <h2>Aprenda sinuca <br> De: <strong>R$109,90</strong> por<br> <p><strong>10X de R$4,99 ou a vista: R$49,90</strong></p></h2>
                    <a href="https://secure.doppus.com/pay/P33Z0OM33Z0OGZ80BH9" target="_blank"><button type="button" class="btn btn-outline-light" style="background-color: red;">ADQUIRIR E-BOOK</button></a>
                        <p><h2>Formas de pagamento</h2><br>Cartão de crédito ou á vista e Pix</p>
                 </article>
-              </div>
-            </div>
-          </div>
-    </article>
-    <!--Abaixo nosso fórmulario, PHP e MySQL-->
+        </div>
+        <div class="col">
+          <!--Abaixo nosso fórmulario, PHP e MySQL-->
     <article id="box">
       <form action="index.php" method="POST">
        <fieldset id="fieldset">
@@ -95,6 +91,10 @@ $result = mysqli_query($conexao, "INSERT INTO usuarios(nome, email, telefone) VA
   </form>
   </article>
 </article>
+        </div>
+      </div>
+    </div>
+
 <!--Abaixo classificado como meio do site, logo após as informações iniciais-->
     <section id="meio">
         <h1 style="margin-top: 100px;">Vai ficar de <b>fora?</b><br>Venha aprender a jogar <b>sinuca</b> e ganhar <br>um dos melhores salarios do Brasil  </h1>
