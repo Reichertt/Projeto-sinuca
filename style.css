@@ -11,12 +11,15 @@ body {
     color: white;
     margin: 0px 0px 0px 0px
 }
+
+
 header > p {
     font-size: 1.5em;
     font-weight: 400;
     color: white;
     text-align: left;
     background-color: rgb(24, 24, 24);
+    padding: 15px 0px 15px 30px;
 }
 
 header > p > a {
@@ -32,8 +35,9 @@ header > p > a:hover {
     border-radius: 5px;
 }
 
-div > button.opcoes {
-    text-align: right;
+div.dropdown {
+margin: 0px 0px 100px 30px;
+
 }
 
 button.opcoes{
@@ -50,9 +54,6 @@ button.opcoes{
     
 }
 
-.cabecalho {
-    margin-top: 60px;
-}
 .col > p {
     margin: 0px 0px 0px 40px;
     display: flex;
@@ -183,6 +184,13 @@ article#salario > p {
     margin: -20px 0px 10px 0px;
 }
 
+button.btn.btn-primary {
+   margin: 50px 0px 0px 50px;
+}
+
+div.card.card-body {
+    background-color: black;
+}
 
 #quemsou > h1{
 margin: 200px 0px 0px 50px;
@@ -198,21 +206,6 @@ margin: 200px 0px 0px 50px;
 
 #quemsou > h2 b{
     color: #fe7e00;
-}
-
-#quemsou > img {
-    margin: 100px 0px -275px 230px;
-}
-
-#quemsou > p {
-    text-align: center;
-    font-weight: 400;
-    background-color: rgb(19, 19, 19);
-    color: white;
-    width: 500px;
-    height: 250px;
-    margin: 25px 0px 200px 475px;
-    padding: 60px 10px 0px 10px;
 }
 
 footer {

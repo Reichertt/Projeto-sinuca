@@ -31,23 +31,24 @@ $result = mysqli_query($conexao, "INSERT INTO usuarios(nome, email, telefone) VA
     <link rel="stylesheet" href="formulario.css">
 </head>
 <body>
-    <header id="home" style="margin: 0px; padding: 0px;">
+    <header id="home">
         <p><b style="color: #fe7e00;">Jogador Profissional</b>
-
-          <div class="dropdown">
-            <button class="opcoes" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-              ☰  
-            </button>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#home">Início</a></li>
-              <li><a class="dropdown-item" href="#esteebook">E-book</a></li>
-              <li><a class="dropdown-item" href="#salarios">Salários</a></li>
-              <li><a class="dropdown-item" href="#quemsou">Quem somos</a></li>
-              <li><a class="dropdown-item" href="#conhecimento">O que vamos aprender?</a></li>
-              <li><a class="dropdown-item" href="Sinuca.html">Jogo</a></li>
-            </ul>
-          </div>
         </p>
+
+        
+        <div class="dropdown">
+          <button class="opcoes" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+            ☰  
+          </button>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#home">Início</a></li>
+            <li><a class="dropdown-item" href="#esteebook">E-book</a></li>
+            <li><a class="dropdown-item" href="#salarios">Salários</a></li>
+            <li><a class="dropdown-item" href="#quemsou">Quem somos</a></li>
+            <li><a class="dropdown-item" href="#conhecimento">O que vamos aprender?</a></li>
+            <li><a class="dropdown-item" href="Sinuca.html">Jogo</a></li>
+          </ul>
+        </div>
     </header>
 
     <div class="container text-center">
@@ -239,10 +240,20 @@ $result = mysqli_query($conexao, "INSERT INTO usuarios(nome, email, telefone) VA
    <article id="quemsou">
      <h1>A final, <b>quem somos</b>?</h1>
      <h2>E porque você deve <b>comprar</b> esse <b>E-book</b></h2>
-     <img src="QuemSomos.png" alt="Imagem de quem somos">
      <p>
-    Olá! Sou um apaixonado por sinuca e especialista em ensinar as pessoas a se tornarem jogadoras de sinuca de alto nível. Com mais de 10 anos, adquiri um vasto conhecimento sobre as técnicas e estratégias necessárias para se destacar nesse esporte.
-     </p>
+      <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample" aria-expanded="false" aria-controls="collapseWidthExample">
+         <img src="QuemSomos.png" alt="Imagem de quem somos">
+      </button>
+    </p>
+    <div style="min-height: 120px;">
+      <div class="collapse collapse-horizontal" id="collapseWidthExample">
+        <div class="card card-body" style="width: 300px;">
+          <p>
+            Olá! Sou um apaixonado por sinuca e especialista em ensinar as pessoas a se tornarem jogadoras de sinuca de alto nível. Com mais de 10 anos, adquiri um vasto conhecimento sobre as técnicas e estratégias necessárias para se destacar nesse esporte.
+             </p>
+        </div>
+      </div>
+    </div>
    </article>
 
 <!--Por fim porem não menos importante, nosso Footer-->
