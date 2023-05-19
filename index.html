@@ -35,19 +35,22 @@ $result = mysqli_query($conexao, "INSERT INTO usuarios(nome, email, telefone) VA
         <p><b style="color: #fe7e00;">Jogador Profissional</b>
         </p>
 
-        
-        <div class="dropdown">
-          <button class="opcoes" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-            ☰  
+          <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample" aria-expanded="false" aria-controls="collapseWidthExample">
+            ☰ 
           </button>
-          <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#home">Início</a></li>
-            <li><a class="dropdown-item" href="#esteebook">E-book</a></li>
-            <li><a class="dropdown-item" href="#salarios">Salários</a></li>
-            <li><a class="dropdown-item" href="#quemsou">Quem somos</a></li>
-            <li><a class="dropdown-item" href="#conhecimento">O que vamos aprender?</a></li>
-            <li><a class="dropdown-item" href="Sinuca.html">Jogo</a></li>
-          </ul>
+        <div style="min-height: 120px;">
+          <div class="collapse collapse-horizontal" id="collapseWidthExample">
+            <div style="width: 300px;">
+              <ul>
+                <li><a href="#home">Início</a></li>
+                <li><a href="#esteebook">E-book</a></li>
+                <li><a href="#salarios">Salários</a></li>
+                <li><a href="#quemsou">Quem somos</a></li>
+                <li><a href="#conhecimento">O que vamos aprender?</a></li>
+                <li><a href="#Sinuca.html">Jogo</a></li>
+              </ul>
+            </div>
+          </div>
         </div>
     </header>
 
@@ -240,8 +243,8 @@ $result = mysqli_query($conexao, "INSERT INTO usuarios(nome, email, telefone) VA
    <article id="quemsou">
      <h1>A final, <b>quem somos</b>?</h1>
      <h2>E porque você deve <b>comprar</b> esse <b>E-book</b></h2>
-     <p>
-      <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample" aria-expanded="false" aria-controls="collapseWidthExample">
+     <p id="QuemSou">
+      <button class="btn btn-second" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample" aria-expanded="false" aria-controls="collapseWidthExample">
          <img src="QuemSomos.png" alt="Imagem de quem somos">
       </button>
     </p>
