@@ -39,7 +39,12 @@ button.btn.btn-primary {
     border: 2px solid #fe7e00;
     background-color: rgb(24, 24, 24);
     border-radius: 32px;
-    
+    margin-left: 30px;
+}
+
+div#collapseWidthExample.collapse-horizontal.collapse.show a {
+    text-decoration: none;
+    color: white;
 }
 
 .col > p {
@@ -123,6 +128,11 @@ section#meio > h1 >b {
     margin-left: 10px;
  }
 
+div.col {
+    margin-top: 50px;
+    text-align: center;
+}
+
  #salario > #emoji {
     padding: 0px 0px 0px 10px;
     font-size: 30px;
@@ -130,10 +140,6 @@ section#meio > h1 >b {
 
 #salarios > h1{
     padding: 200px 0px 90px 50px;
-}
-
-#salarios > h1 > b{
-    color: #fe7e00;
 }
 
 #salario {
@@ -178,11 +184,7 @@ button.btn.btn-second {
 
 div.card.card-body {
     background-color: black;
-    margin-left: 190px;
-}
-
-p#QuenSou {
- margin: 0px;
+    margin-left: 215px;
 }
 
 #quemsou > h1{
@@ -200,6 +202,7 @@ margin: 200px 0px 0px 50px;
 #quemsou > h2 b{
     color: #fe7e00;
 }
+
 
 footer {
     background-color: rgb(19, 19, 19);
