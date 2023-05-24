@@ -105,7 +105,7 @@ $result = mysqli_query($conexao, "INSERT INTO usuarios(nome, email, telefone) VA
     </section>
     <article id="vantagens">
         <div class="container text-center">
-            <div class="row align-items-start">
+            <div class="row align-items-starti">
               <div class="col">
                 <article id="acesso">
                     <h3>Acesso vitalício</h3>
@@ -239,37 +239,66 @@ $result = mysqli_query($conexao, "INSERT INTO usuarios(nome, email, telefone) VA
     </div>
 
 <!--Quem somos-->
-<div class="container text-center">
-  <div class="row align-items-start">
-    <div class="col">
-      <article id="quemsou">
-        <h1>A final, <b>quem somos</b>?</h1>
-        <h2>E onde estamos <b>localizados</b>?</h2>
-        <p>
-         <button class="btn btn-second" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample" aria-expanded="false" aria-controls="collapseWidthExample">
-            <img src="imagens/QuemSomos.png" alt="Imagem de quem somos">
-         </button>
-       </p>
-       <div style="min-height: 120px;">
-         <div class="collapse collapse-horizontal" id="collapseWidthExample">
-           <div class="card card-body" style="width: 300px;">
-             <p>
-               Olá! Sou um apaixonado por sinuca e especialista em ensinar as pessoas a se tornarem jogadoras de sinuca de alto nível. Com mais de 10 anos, adquiri um vasto conhecimento sobre as técnicas e estratégias necessárias para se destacar nesse esporte.
-                </p>
-           </div>
-         </div>
-       </div>
-      </article>
-    </div>
-    <div class="col">
-      <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d14138.184207758148!2d-48.709105099999995!3d-27.6385726!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1spt-BR!2sbr!4v1684802519603!5m2!1spt-BR!2sbr" width="400" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+<article id="quemsou">
+  <h1>A final, <b>quem somos</b>?</h1>
+  <h2>E onde estamos <b>localizados</b>?</h2>
+  <p>
+   <button class="btn btn-second" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample" aria-expanded="false" aria-controls="collapseWidthExample">
+      <img src="imagens/QuemSomos.png" alt="Imagem de quem somos">
+      <iframe id="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3534.4337129020373!2d-48.67395742527459!3d-27.64205002407035!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x952735a5101a3f1f%3A0x51de517e47ae2ba4!2sShopping%20ViaCatarina!5e0!3m2!1spt-BR!2sbr!4v1684883168977!5m2!1spt-BR!2sbr" width="400" height="264" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+   </button>
+ </p>
+ <div style="min-height: 120px;">
+   <div class="collapse collapse-horizontal" id="collapseWidthExample">
+     <div class="card card-body" style="width: 300px;">
+       <p>
+         Olá! Sou um apaixonado por sinuca e especialista em ensinar as pessoas a se tornarem jogadoras de sinuca de alto nível. Com mais de 10 anos, adquiri um vasto conhecimento sobre as técnicas e estratégias necessárias para se destacar nesse esporte.
+          </p>
+     </div>
+   </div>
+ </div>
+</article>
+
+<!--Por fim porem não menos importante, nosso Footer-->
+<footer>
+
+<p id="PlayerPro"><b style="color: #fe7e00;">Jogador Profissional</b>
+
+<p>
+  <button class="footerOne" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample" aria-expanded="false" aria-controls="collapseWidthExample">
+    E-mail 
+  </button>
+</p>
+<div>
+  <div class="collapse collapse-horizontal" id="collapseWidthExample">
+    <div class="card card-body" style="width: 200px;">
+      Example@Gmail.com
     </div>
   </div>
 </div>
 
-<!--Por fim porem não menos importante, nosso Footer-->
-<footer>
-    <p>Copyright © 2023 <a href="https://www.google.com/search?q=artigo+5%C2%BA%2C+XXVII%2C+da+Constitui%C3%A7%C3%A3o+Federal.&rlz=1C1GCEA_enBR1034BR1034&oq=artigo+5%C2%BA%2C+XXVII%2C+da+Constitui%C3%A7%C3%A3o+Federal.&aqs=chrome..69i57j0i13i30j0i22i30.1108j0j15&sourceid=chrome&ie=UTF-8" target="_blank">artigo 5º, XXVII, da Constituição Federal.</a></p>
+<p>
+  <button class="footerOne" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample" aria-expanded="false" aria-controls="collapseWidthExample">
+    Contato 
+  </button>
+</p>
+<div>
+  <div class="collapse collapse-horizontal" id="collapseWidthExample">
+    <div class="card card-body" style="width: 200px;">
+      +55 (48) 99999-9999
+    </div>
+  </div>
+</div>
+
+<p>
+  <a href="https://www.linkedin.com/in/vitor-reichert-960246240/" target="_blank">
+    <button class="footerOne" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample" aria-expanded="false" aria-controls="collapseWidthExample">
+      LinkedIn
+    </button>
+  </a>
+</p>
+    <p id="Copyright">Copyright © 2023
 </footer>
 </body>
 </html>
