@@ -241,12 +241,10 @@ $result = mysqli_query($conexao, "INSERT INTO usuarios(nome, email, telefone) VA
 <!--Quem somos-->
 
 <article id="quemsou">
-  <h1>A final, <b>quem somos</b>?</h1>
-  <h2>E onde estamos <b>localizados</b>?</h2>
+  <h1>Afinal, <b>quem somos</b>?</h1>
   <p>
    <button class="btn btn-second" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample" aria-expanded="false" aria-controls="collapseWidthExample">
       <img src="imagens/QuemSomos.png" alt="Imagem de quem somos">
-      <iframe id="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3534.4337129020373!2d-48.67395742527459!3d-27.64205002407035!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x952735a5101a3f1f%3A0x51de517e47ae2ba4!2sShopping%20ViaCatarina!5e0!3m2!1spt-BR!2sbr!4v1684883168977!5m2!1spt-BR!2sbr" width="400" height="264" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
    </button>
  </p>
  <div style="min-height: 120px;">
@@ -258,6 +256,10 @@ $result = mysqli_query($conexao, "INSERT INTO usuarios(nome, email, telefone) VA
      </div>
    </div>
  </div>
+
+ <h2>Onde estamos <b>localizados</b>?</h2>
+      
+   <iframe id="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3534.4337129020373!2d-48.67395742527459!3d-27.64205002407035!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x952735a5101a3f1f%3A0x51de517e47ae2ba4!2sShopping%20ViaCatarina!5e0!3m2!1spt-BR!2sbr!4v1684883168977!5m2!1spt-BR!2sbr" width="400" height="264" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 </article>
 
 <!--Por fim porem não menos importante, nosso Footer-->
@@ -292,12 +294,17 @@ $result = mysqli_query($conexao, "INSERT INTO usuarios(nome, email, telefone) VA
 </div>
 
 <p>
-  <a href="https://www.linkedin.com/in/vitor-reichert-960246240/" target="_blank">
-    <button class="footerOne" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample" aria-expanded="false" aria-controls="collapseWidthExample">
-      LinkedIn
-    </button>
-  </a>
+  <button class="footerOne" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample" aria-expanded="false" aria-controls="collapseWidthExample">
+    LinkedIn 
+  </button>
 </p>
+<div>
+  <div class="collapse collapse-horizontal" id="collapseWidthExample">
+    <div class="card card-body" style="width: 200px;">
+       <a href="https://www.linkedin.com/in/vitor-reichert-960246240/">Vitor Reichert</a>
+    </div>
+  </div>
+</div>
     <p id="Copyright">Copyright © 2023
 </footer>
 </body>
