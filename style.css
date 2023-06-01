@@ -131,10 +131,6 @@ div.row.align-items-starti {
 
 /*Salarios dos níveis*/
 
- #salarios {
-    padding-left: 50px;
- }
-
 #salarios > h1{
     padding: 200px 0px 90px 50px;
 }
@@ -221,6 +217,20 @@ margin: 200px 0px 0px 50px;
 div.card.card-body {
     background-color: black;
     margin-left: 45px;
+}
+
+/*jogo*/
+
+#jogo {
+    margin-bottom: 100px;
+}
+
+#jogar > h1 {
+text-align: justify;
+}
+
+.col > img {
+    border-radius: 10px;
 }
 
 /*Por fim porem não menos importante, nosso Footer*/
