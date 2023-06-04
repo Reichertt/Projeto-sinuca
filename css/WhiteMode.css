@@ -18,7 +18,7 @@ body.dark {
 #WhiteDarkMode {
   position: absolute;
   right: 0;
-  padding-right: 30px;
+  padding-right: 100px;
 }
 
 .label {
@@ -59,4 +59,12 @@ body.dark {
 
 .fa-sun {
   color: #f39c12;
+}
+
+span.carousel-control-prev-icon {
+  background-color: black;
+}
+
+span.carousel-control-next-icon {
+  background-color: black;
 }

@@ -1,9 +1,15 @@
-@charset "UTF-8"; 
+    @charset "UTF-8"; 
 
 @font-face {
     font-family: 'Poppins', sans-serif;
     src: url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
 }
+
+:root {
+    --primary-color: #fe7e00;
+    --second-color: rgb(24, 24, 24);
+    --third-color: rgb(19, 19, 19);
+  }
 
 body {
     font-family: 'Poppins', sans-serif;
@@ -18,7 +24,7 @@ header > p {
     font-weight: 400;
     color: white;
     text-align: left;
-    background-color: rgb(24, 24, 24);
+    background-color: var(--second-color);
     padding: 15px 0px 15px 30px;
 }
 
@@ -36,7 +42,7 @@ button.btn.btn-primary {
     justify-content: center;
     width: 50px;
     height: 30px;
-    border: 2px solid #fe7e00;
+    border: 2px solid var(--primary-color);
     background-color: rgb(24, 24, 24);
     border-radius: 32px;
     margin-left: 30px;
@@ -54,7 +60,7 @@ div#collapseWidthExample.collapse-horizontal.collapse.show a {
     justify-content: center;
     gap: 16px;
     width: 324px;
-    border: 2px solid #fe7e00;
+    border: 2px solid var(--primary-color);
     border-radius: 32px;
     padding: 10px;
 }
@@ -66,7 +72,11 @@ div#collapseWidthExample.collapse-horizontal.collapse.show a {
 
 .col > h1 >b {
     background-clip: text;
-    color:  #fe7e00;
+    color:  var(--primary-color);
+}
+
+article#tempolimitado {
+    margin-left: 10px;
 }
 
 #tempolimitado > h2 {
@@ -90,7 +100,7 @@ div#collapseWidthExample.collapse-horizontal.collapse.show a {
 }
 
 section#meio > h1 >b {
-    color:  #fe7e00;
+    color:  var(--primary-color);
 }
 
 div.row.align-items-starti {
@@ -99,7 +109,7 @@ div.row.align-items-starti {
 
 #acesso {
     text-align: center;
-    background-color: rgb(19, 19, 19);
+    background-color: var(--third-color);
     color: white;
     width: 300px;
     height: 200px;
@@ -109,7 +119,7 @@ div.row.align-items-starti {
 }
 #suporte{
     text-align: center;
-    background-color: rgb(19, 19, 19);
+    background-color: var(--third-color);
     color: white;
     width: 300px;
     height: 200px;
@@ -119,7 +129,7 @@ div.row.align-items-starti {
 }
 #conteudo {
     text-align: center;
-    background-color: rgb(19, 19, 19);
+    background-color: var(--third-color);
     color: white;
     width: 300px;
     height: 200px;
@@ -147,7 +157,7 @@ div.col {
 
 #salario {
     text-align: center;
-    background-color: rgb(19, 19, 19);
+    background-color: var(--third-color);
     color: white;
     width: 300px;
     height: 200px;
@@ -167,12 +177,12 @@ article#salario > p {
     margin-top: 100px;
 }
 #conhecimento > h1 > b{
-    color: #fe7e00;
+    color: var(--primary-color);
 }
 
 #sinuca{
     text-align: center;
-    background-color: rgb(19, 19, 19);
+    background-color: var(--third-color);
     color: white;
     width: 320px;
     height: 220px;
@@ -198,7 +208,7 @@ margin: 200px 0px 0px 50px;
 }
 
 #quemsou > h1 > b{
-    color: #fe7e00;
+    color: var(--primary-color);
 }
 
 #quemsou > h2{
@@ -206,11 +216,11 @@ margin: 200px 0px 0px 50px;
 }
 
 #quemsou > h2 b{
-    color: #fe7e00;
+    color: var(--primary-color);
 }
 
 #mapa {
-    margin: 100px 0px 100px 50px;
+    margin: 100px 0px 100px 60px;
 }
 
 div.card.card-body {
@@ -235,32 +245,20 @@ text-align: justify;
 /*Por fim porem não menos importante, nosso Footer*/
 
 #PlayerPro {
-    margin: 0px 0px 10px 30px;
+    margin-left: 30px;
     padding-top: 20px;
     font-size: 2em;
 }
 
 
-.footerOne {
-    margin: 30px 0px 0px 30px;
-    color: #fe7e00;
-    background-color: black;
-}
-
 #Copyright {
-    padding-top: 15px;
+    padding-bottom: 15px;
+    margin: 0px;
     text-align: center;
 }
 
 footer {
-    background-color: rgb(19, 19, 19);
-    width: 100%;
-    height: 100%;
+    background-color: var(--third-color);
     color: white;
     border-radius: 50px;
-}
-
-footer a {
-    text-decoration: none;
-    color: white;
 }
