@@ -62,14 +62,30 @@ $result = mysqli_query($conexao, "INSERT INTO usuarios(nome, email, telefone) VA
         <div style="min-height: 120px;">
           <div class="collapse collapse-horizontal" id="collapseWidthExample">
             <div style="width: 300px;">
-              <ul>
-                <li><a href="#home">Início</a></li>
-                <li><a href="#esteebook">E-book</a></li>
-                <li><a href="#salarios">Salários</a></li>
-                <li><a href="#quemsou">Quem somos</a></li>
-                <li><a href="#conhecimento">O que vamos aprender?</a></li>
-                <li><a href="#jogo">Jogo</a></li>
-              </ul>
+
+              <table>
+
+                <tr>
+                  <th><a href="#esteebook">E-book</a></th>
+                </tr>
+
+                <tr>
+                  <th><a href="#salarios">Salários</a></th>
+                </tr>
+
+                <tr>
+                  <th><a href="#conhecimento">Conteúdo</a></th>
+                </tr>
+
+                <tr>
+                  <th><a href="#quemsou">Quem sou</a></th>
+                </tr>
+
+                <tr>
+                  <th><a href="#jogo">Jogo</a></th>
+                </tr>
+                
+              </table>
             </div>
           </div>
         </div>
@@ -280,7 +296,7 @@ $result = mysqli_query($conexao, "INSERT INTO usuarios(nome, email, telefone) VA
 <!--Quem somos-->
 
 <article id="quemsou">
-  <h1>Afinal, <b>quem somos</b>?</h1>
+  <h1>Afinal, <b>quem sou</b>?</h1>
   <p>Clique na imagem a baixo</p>
   <p>
    <button class="btn btn-seconds" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample" aria-expanded="false" aria-controls="collapseWidthExample">
@@ -289,7 +305,7 @@ $result = mysqli_query($conexao, "INSERT INTO usuarios(nome, email, telefone) VA
  </p>
  <div style="min-height: 120px;">
    <div class="collapse collapse-horizontal" id="collapseWidthExample">
-     <div class="card card-body" style="width: 300px;">
+     <div class="card card-body" style="width: 280px;">
        <p>
          Olá! Sou um apaixonado por sinuca e especialista em ensinar as pessoas a se tornarem jogadoras de sinuca de alto nível. Com mais de 10 anos, adquiri um vasto conhecimento sobre as técnicas e estratégias necessárias para se destacar nesse esporte.
           </p>
@@ -302,7 +318,7 @@ $result = mysqli_query($conexao, "INSERT INTO usuarios(nome, email, telefone) VA
       <div class="item-05"><p>5</p></div>
     </div>
 
- <h2>Onde estamos <b>localizados</b>?</h2>
+ <h1>Onde estamos <b>localizados</b>?</h1>
       
    <iframe id="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3534.4337129020373!2d-48.67395742527459!3d-27.64205002407035!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x952735a5101a3f1f%3A0x51de517e47ae2ba4!2sShopping%20ViaCatarina!5e0!3m2!1spt-BR!2sbr!4v1684883168977!5m2!1spt-BR!2sbr" width="300" height="264" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 </article>
@@ -311,7 +327,7 @@ $result = mysqli_query($conexao, "INSERT INTO usuarios(nome, email, telefone) VA
 <div id="jogo" class="container text-center">
   <div class="row align-items-start">
     <div id="jogar" class="col">
-      <h1>Jogue nosso <b>Game</b></h1>
+      <h1 id="jogador">Jogue nosso <b>Game</b></h1>
       <p style="margin-top: 30px;">Controle a força</p>
       <p style="margin-top: 30px;">Tente acumular o maximo de score</p>
      <p style="margin-top: 30px;">Bom jogo</p>
@@ -331,20 +347,14 @@ $result = mysqli_query($conexao, "INSERT INTO usuarios(nome, email, telefone) VA
 
     <div class="container text-center">
       <div class="row align-items-center">
-        <div class="col">
-          <a href="https://www.instagram.com/vitcoder/"><i class="fa-brands fa-instagram fa-bounce fa-2xl" style="color: #fe7e00;"></i></a>
+        <div class="icones">
+          <a href="https://www.instagram.com/vitcoder/" target="_blank"><i class="fa-brands fa-instagram fa-bounce fa-2xl" style="color: #fe7e00;"></i></a>
 
-          <a href="https://github.com/Reichertt"><i class="fa-brands fa-github fa-bounce fa-2xl" style="color: #000000;"></i></a>
+          <a href="https://github.com/Reichertt" target="_blank"><i class="fa-brands fa-github fa-bounce fa-2xl" style="color: #000000;"></i></a>
 
-          <a href="https://www.linkedin.com/in/vitor-reichert-960246240/"><i class="fa-brands fa-linkedin fa-bounce fa-2xl"></i></a>
+          <a href="https://www.linkedin.com/in/vitor-reichert-960246240/" target="_blank"><i class="fa-brands fa-linkedin fa-bounce fa-2xl"></i></a>
 
           <abbr title="Vitor.r.goncalves@hotmail.com"><i class="fa-solid fa-square-envelope fa-bounce fa-2xl" style="color: #3080e8;"></i></abbr>
-        </div>
-        <div class="col">
-          
-        </div>
-        <div class="col">
-          
         </div>
       </div>
     </div>

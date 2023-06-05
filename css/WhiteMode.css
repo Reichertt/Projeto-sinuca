@@ -68,3 +68,7 @@ span.carousel-control-prev-icon {
 span.carousel-control-next-icon {
   background-color: black;
 }
+
+div.card.card-body > p {
+  color: white;
+}

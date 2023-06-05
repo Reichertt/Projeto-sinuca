@@ -48,9 +48,10 @@ button.btn.btn-primary {
     margin-left: 30px;
 }
 
-div#collapseWidthExample.collapse-horizontal.collapse.show a {
+div#collapseWidthExample.collapse-horizontal.collapse.show a{
+    margin-left: 30px;
+    color: var(--primary-color);
     text-decoration: none;
-    color: white;
 }
 
 .col > p {
@@ -76,7 +77,7 @@ div#collapseWidthExample.collapse-horizontal.collapse.show a {
 }
 
 article#tempolimitado {
-    margin-left: 10px;
+    margin-left: 60px;
 }
 
 #tempolimitado > h2 {
@@ -215,8 +216,12 @@ margin: 200px 0px 0px 50px;
     margin: 0px 0px 0px 50px;
 }
 
-#quemsou > h2 b{
+#quemsou > h1 b{
     color: var(--primary-color);
+}
+
+#quemsou > p {
+    margin: 0px 0px 0px 50px;
 }
 
 #mapa {
@@ -225,7 +230,7 @@ margin: 200px 0px 0px 50px;
 
 div.card.card-body {
     background-color: black;
-    margin-left: 45px;
+    margin-left: 110px;
 }
 
 /*jogo*/
@@ -235,7 +240,7 @@ div.card.card-body {
 }
 
 #jogar > h1 {
-text-align: justify;
+    margin: 0px 0px 0px 50px;
 }
 
 .col > img {
@@ -261,4 +266,16 @@ footer {
     background-color: var(--third-color);
     color: white;
     border-radius: 50px;
+}
+
+.icones {
+    padding-bottom: 30px;
+}
+
+.icones > a {
+    padding-left: 30px;
+}
+
+.icones > abbr {
+    padding-left: 30px;
 }
