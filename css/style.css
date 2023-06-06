@@ -72,7 +72,7 @@ div#collapseWidthExample.collapse-horizontal.collapse.show a {
 }
 
 label.label {
-    background-color: var(--third-color);
+    background-color: rgb(57, 57, 57);
 }
 
 .col > h1{
