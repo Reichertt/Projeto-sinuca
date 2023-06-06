@@ -6,7 +6,7 @@ body {
 }
 
 body.dark {
-  background: white;
+  background: rgb(255, 235, 235);
   color: black;
 }
 

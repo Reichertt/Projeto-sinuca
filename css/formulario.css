@@ -2,12 +2,12 @@
 
 #box{
     color: white;
-    width: 100%;
+    width: 325px;
     background-color: rgba(0, 0, 0, 0.6);
     border-radius: 15px;
-    margin-top: 0px;
-
+    margin-left: 25px;
 }
+
 fieldset{
     border-radius: 15px;
     border: 3px solid #fe7e00;

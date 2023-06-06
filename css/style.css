@@ -48,8 +48,13 @@ button.btn.btn-primary {
     margin-left: 30px;
 }
 
-div#collapseWidthExample.collapse-horizontal.collapse.show a{
-    margin-left: 30px;
+div#collapseWidthExample.collapse-horizontal.collapse.show{
+    transition: 2s;
+    margin: 20px 0px 0px 30px;
+}
+
+div#collapseWidthExample.collapse-horizontal.collapse.show a {
+    transition: 1s;
     color: var(--primary-color);
     text-decoration: none;
 }
@@ -66,8 +71,12 @@ div#collapseWidthExample.collapse-horizontal.collapse.show a{
     padding: 10px;
 }
 
+label.label {
+    background-color: var(--third-color);
+}
+
 .col > h1{
-    margin: 70px 0px 0px 40px;
+    margin: 70px 0px 0px 0px;
     font-size: 3em;
 }
 
@@ -77,7 +86,8 @@ div#collapseWidthExample.collapse-horizontal.collapse.show a{
 }
 
 article#tempolimitado {
-    margin-left: 60px;
+    margin-left: 25px;
+    border-radius: 15px;
 }
 
 #tempolimitado > h2 {
@@ -88,10 +98,10 @@ article#tempolimitado {
     color: rgb(255, 4, 4);
 }
 
-/*Abaixo nosso fórmulario, PHP e MySQL*/
-
-#box {
-    margin: 20px 0px 0px 0px;
+.tempolimite {
+    background-color: red;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
 
 /*Abaixo classificado como meio do site, logo após as informações iniciais*/
@@ -145,12 +155,17 @@ div.row.align-items-starti {
     padding: 200px 0px 90px 50px;
 }
 
+#salarios > h1 > b {
+    color: var(--primary-color);
+}
+
 div.col {
     margin-top: 50px;
     text-align: center;
 }
 
  #salario > #emoji {
+    text-align: center;
     padding: 0px 0px 0px 10px;
     font-size: 30px;
  }
