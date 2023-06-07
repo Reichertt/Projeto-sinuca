@@ -10,13 +10,13 @@
 
 fieldset{
     border-radius: 15px;
-    border: 3px solid #fe7e00;
+    border: 3px solid #FF7B00;
 }
 
 legend{
     padding: 10px;
     text-align: center;
-    background-color: #fe7e00;
+    background-color: #FF7B00;
     border-radius: 8px;
     margin-bottom: 20px;
 }
@@ -53,7 +53,7 @@ legend{
     font-size: 15px;
 }
 #submit{
-    background-color: #fe7e00;
+    background-color: #FF7B00;
     width: 100%;
     border: none;
     padding: 15px;
@@ -63,5 +63,5 @@ legend{
     border-radius: 10px;
 }
 #submit:hover{
-    background-color: #fe7e00;
+    background-color: #FF7B00;
 }
