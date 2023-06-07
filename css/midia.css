@@ -1,0 +1,29 @@
+@media 
+
+(min-width: 0px) and (max-width: 480px) {
+
+.carousel-item.active {
+    margin-left: -28px;
+}
+
+button.carousel-control-prev {
+    padding-top: 200px;
+}
+
+button.carousel-control-next {
+    padding-top: 200px;
+}
+
+div.row.align-items-start-1 {
+    margin-left: 50px;
+}
+
+button.btn.btn-seconds {
+    margin-left: 0px;
+}
+
+h1#jogador {
+    margin-left: 0px;
+}
+
+}

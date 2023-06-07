@@ -75,7 +75,7 @@ label.label {
     background-color: rgb(57, 57, 57);
 }
 
-.col > h1{
+h1#maneira {
     margin: 70px 0px 0px 0px;
     font-size: 3em;
 }
@@ -147,6 +147,16 @@ div.row.align-items-starti {
     border-radius: 10px;
     margin-top: 45px;
     padding-top: 30px;
+}
+
+/*Inicio da introdução "Este E-book" */
+
+button.carousel-control-prev {
+    padding-top: 200px;
+}
+
+button.carousel-control-next {
+    padding-top: 200px;
 }
 
 /*Salarios dos níveis*/
@@ -250,12 +260,16 @@ div.card.card-body {
 
 /*jogo*/
 
-#jogo {
-    margin-bottom: 100px;
+h1#jogador {
+    margin: 100px 0px 0px 50px;
 }
 
-#jogar > h1 {
-    margin: 0px 0px 0px 50px;
+h1#jogador b {
+    color: var(--primary-color);
+}
+
+#jogo {
+    margin-bottom: 100px;
 }
 
 .col > img {
